@@ -22,7 +22,7 @@ function App() {
 console.log(api)
   if (!api.articles || api.articles.length === 0) {
     return <div>Loading...</div>;
-  }
+  } 
 
   return (
     <div className='flex justify-between flex-wrap'>
