@@ -4,7 +4,7 @@ import {removeTodo} from '../features/todo/todoSlice'
 
 function Todos() {
     const todos = useSelector(state => state.todos)
-    const dispatch = useDispatch()
+    const dispatch = useDispatch()  /* value bhejne ke liye dispatch usse krte*/
 
   return (
     <>
@@ -43,4 +43,3 @@ function Todos() {
 }
 
 export default Todos
-    
