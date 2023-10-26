@@ -8,10 +8,11 @@ const dispatch = useDispatch()
 
 const bookk = useSelector(state => state.book)
 console.log(bookk)
-const addbookHandler = (e) => {
-    e.preventDefault()
-    dispatch(reduceBooks(bookk[0].numbers))
-}
+ 
+// const addbookHandler = (e) => {
+//     e.preventDefault()
+//     dispatch(reduceBooks(bookk[0].numbers))
+// }
 
   return (
     <>
