@@ -83,6 +83,18 @@ export default function ExampleNavbarOne() {
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
         </div>
+        <a
+                  href="https://drive.google.com/file/d/109WVYYpOu0QQxiEdAD7QnaMQhLYSD-Hu/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button
+                    type="button"
+                    className="rounded-md bg-black mt-2 mr-2 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                  >
+                    R E S U M E
+                  </button>
+                </a>
         {isMenuOpen && (
           <div className="absolute inset-x-0 top-0 z-50 origin-top-right transform p-2 transition lg:hidden">
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
@@ -135,7 +147,7 @@ export default function ExampleNavbarOne() {
                   type="button"
                   className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
-                  Button tex
+                  Button
                 </button>
               </div>
             </div>

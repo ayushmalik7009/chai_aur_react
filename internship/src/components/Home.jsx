@@ -16,7 +16,7 @@ export default function Home() {
           <div className="mt-10 md:mt-0">
             <blockquote>
               <p className="text-xl text-black">
-                “Hello , I made this websit to answers of yours Questions for the internship role in AltaSierra”
+                “Hello , I made this Basic website to answers of yours Questions for the Internship role in AltaSierra”
               </p>
             </blockquote>
             <p className="mt-7 text-lg font-semibold text-black">Ayush Malik</p>
